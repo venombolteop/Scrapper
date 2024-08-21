@@ -29,9 +29,9 @@ pip install -r requirements.txt
 3. Replace the placeholder values in `main.py` with your actual Telegram API credentials:
 
 ```python
-api_id = 'YOUR_API_ID'
-api_hash = 'YOUR_API_HASH'
-string_session = 'YOUR_PYROGRAMV2_STRING'
+API_ID= 'YOUR_API_ID'
+API_HASH= 'YOUR_API_HASH'
+STRING_SESSION= 'YOUR_PYROGRAMV2_STRING'
 ```
 
 ## Usage
