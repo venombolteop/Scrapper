@@ -1,0 +1,30 @@
+{
+   "name": "Cc Scrapper",
+   "description": "Telegram Bot",
+   "repository": "https://github.com/venombolteop/Scrapper",
+   "logo": "https://te.legra.ph/file/9d50d37597fd22e3ad639.jpg",
+   "image": "heroku/python",
+   "env": {
+      "API_ID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "Pyrogram V2 String Session",
+        "value": "",
+        "required": true
+      },
+   },
+   "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "eco"
+            }
+        }
+  }
