@@ -1,38 +1,43 @@
 {
-   "name": "Cc Scrapper",
-   "description": "Telegram Bot",
-   "repository": "https://github.com/venombolteop/Scrapper",
-   "logo": "https://te.legra.ph/file/9d50d37597fd22e3ad639.jpg",
-   "keywords": [
+    "name": "Cc scrapper",
+    "description": "A Telegram cc scrapper bot written with pyrogram and python.",
+    "logo": "https://te.legra.ph/file/9d50d37597fd22e3ad639.jpg",
+    "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Cc-scrape",
+    "VenomX",
     "Scrapper",
     "telegram-bot",
     "pyrogram"
     ],
-   "env": {
+    "env": {
       "API_ID": {
-        "description": "Fill Api ID Take this value from My.telegram.org",
+        "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Fill Api hash Take this value from My.telegram.org",
+        "description": "Get this value from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "Pyrogram V2 String Session",
+        "description": "A Pyrogram v2 String Session from @Venom_string_robot on Telegram.",
         "value": "",
         "required": true
       },
-   },
-   "buildpacks": [
+    },
+    "buildpacks": [
           {
               "url": "heroku/python"
           },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
       ],
       "stack": "container"
   }
