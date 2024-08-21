@@ -3,7 +3,15 @@
    "description": "Telegram Bot",
    "repository": "https://github.com/venombolteop/Scrapper",
    "logo": "https://te.legra.ph/file/9d50d37597fd22e3ad639.jpg",
-   "image": "heroku/python",
+   "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Cc-scrape",
+    "Scrapper",
+    "telegram-bot",
+    "pyrogram"
+    ],
    "env": {
       "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -21,10 +29,10 @@
         "required": true
       },
    },
-   "formation": {
-            "worker": {
-                "quantity": 1,
-                "size": "eco"
-            }
-        }
+   "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+      ],
+      "stack": "container"
   }
