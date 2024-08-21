@@ -1,37 +1,37 @@
 {
-    "name": "Cc scrapper",
-    "description": "A Telegram cc scrapper bot written with pyrogram and python.",
+    "name": "Cc Scrapper",
+    "description": "A Telegram CC scrapper bot written with Pyrogram and Python.",
     "logo": "https://te.legra.ph/file/9d50d37597fd22e3ad639.jpg",
     "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "VenomX",
-    "Scrapper",
-    "telegram-bot",
-    "pyrogram"
+        "python3",
+        "telegram",
+        "bot",
+        "VenomX",
+        "Scrapper",
+        "telegram-bot",
+        "pyrogram"
     ],
     "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @Venom_string_robot on Telegram.",
-        "value": "",
-        "required": true
-      },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "A Pyrogram v2 String Session from @Venom_string_robot on Telegram.",
+            "value": "",
+            "required": true
+        }
     },
     "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-      ],
-      "stack": "container"
-  }
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "stack": "container"
+}
